@@ -16,7 +16,7 @@ import FooterMain from './components/FooterSection/FooterMain'
 function App() {
 
   return (
-    <main className='font-body'>
+    <main className='font-body pt-[100px]'>
     <NavbarMain/>
     <HeroMain/>
     <HeroGradient/>
@@ -28,7 +28,6 @@ function App() {
     <ProjectMain/>
     <ContactMeMain/>
     <FooterMain/>
-    <HelpSection/>
   </main>
   ) 
 }

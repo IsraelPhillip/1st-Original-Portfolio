@@ -5,6 +5,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  @apply bg-darkBrown
+body {
+  @apply bg-darkBrown overflow-x-hidden font-body;
 }

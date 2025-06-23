@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-scroll'
 const links = [
-  { link: 'About Me', section: 'about' },
+  { link: 'About', section: 'about' },
   { link: 'Skills', section: 'skills' },
   { link: 'Experience', section: 'experience' },
   { link: 'Projects', section: 'projects' },
@@ -11,10 +11,10 @@ const links = [
 const NavbarLinks = ({ isMobile = false }) => {
   return (
     <ul
-      className={`flex ${
+      className={`w-full max-w-xs mx-auto flex ${
         isMobile
           ? 'flex-col items-center bg-cyan/30 backdrop-blur-lg py-4 rounded-xl'
-          : 'flex-row'
+          : 'flex-row w-full '
       } gap-6 text-white font-bold text-md text-center`}
     >
       {links.map((link, index) => (
