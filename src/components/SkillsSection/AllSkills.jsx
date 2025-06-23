@@ -8,8 +8,7 @@ import { SiRedux } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import SingleSkill from './SingleSkill';
-import { motion } from "motion/react"
-import {fadeIn} from '/src/FramerMotion/variants';
+
 const skills = [{
     skill: 'HTML',
     icon: FaHtml5
@@ -41,18 +40,13 @@ const AllSkills = () => {
   return <div>
       <div className='flex gap-2 relative items-center justify center mx-auto max-w-[1200px]'>
       {skills.map((item, index) => (
-        <motion.div
-        variants={fadeIn('up', `0.${index}` )}
-        initial='hidden'
-        whileInView='show'
-        viewport={{once: false, amount: 0}}
-        >
+        <div>
             <SingleSkill
           key={index}
           text={item.skill}
           imgSvg={<item.icon />}
         />
-        </motion.div>
+        </div>
        
       ))}
     </div>
