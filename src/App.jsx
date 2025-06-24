@@ -1,7 +1,6 @@
 
 import AboutMeMain from './components/AboutMeSection/AboutMeMain'
 import ExperienceMain from './components/ExperienceSection/ExperienceMain'
-import HelpSection from './components/HelpSection'
 import HeroGradient from './components/HeroSection/HeroGradient'
 import HeroMain from './components/HeroSection/HeroMain'
 import SubHeroSection from './components/HeroSection/SubHeroSection'
@@ -16,7 +15,7 @@ import FooterMain from './components/FooterSection/FooterMain'
 function App() {
 
   return (
-    <main className='font-body pt-[100px]'>
+    <main className='font-special pt-[100px]'>
     <NavbarMain/>
     <HeroMain/>
     <HeroGradient/>

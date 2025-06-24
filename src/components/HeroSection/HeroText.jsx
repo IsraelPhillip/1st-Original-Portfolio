@@ -1,14 +1,16 @@
 import React from 'react';
 
-
 const HeroText = () => {
   return (
-    <div className="flex flex-col gap-4 h-full justify-center md:text-left sm:text-center px-2 sm:px-4">
-      <h2
-       className="lg:text-2xl sm:text-xl uppercase text-cyan">Frontend Web Developer</h2>
-      <h1 className="md:text-[2.8rem] lg:text-6xl sm:text-4xl font-bold font-special text-orange">Israel Phillip</h1>
-      <p className="text-lg mt-4 text-white">
-        A Passionate Web Developer With Years of <br /> Experience
+    <div className="flex flex-col gap-4 h-full justify-center text-center md:text-left px-4">
+      <h2 className="text-xl md:text-2xl uppercase text-cyan break-words">
+        Frontend Web Developer
+      </h2>
+      <h1 className="text-4xl md:text-[2.8rem] lg:text-6xl font-bold font-special text-orange break-words">
+        Israel Phillip
+      </h1>
+      <p className="text-base md:text-lg mt-4 text-white break-words whitespace-normal">
+        A Passionate Web Developer With Years of Experience
       </p>
     </div>
   );
