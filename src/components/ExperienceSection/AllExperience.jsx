@@ -8,10 +8,10 @@ const experiences = [
     company: "Phillip Apps",
     date: "2024 - Present",
     responsibilities: [
-      "Developing and maintaining highly responsive user interfaces using React and Tailwind CSS.",
-      "Building reusable and scalable front-end components to speed up project delivery.",
-      "Optimizing web applications for better performance, accessibility, and mobile responsiveness.",
-      "Collaborating on UI/UX improvements to enhance customer engagement and satisfaction."
+      "Built responsive UIs with React and Tailwind CSS.",
+      "Developed reusable front-end components.",
+      "Improved performance and accessibility.",
+      "Enhanced UI/UX for better engagement."
     ],
   },
   {
@@ -19,10 +19,10 @@ const experiences = [
     company: "Phipest-Bens Intl Ltd",
     date: "2024 - Present",
     responsibilities: [
-      "Designed and launched the company’s official website with a modern, user-friendly layout.",
-      "Integrated responsive design practices to ensure seamless viewing across devices.",
-      "Worked closely with stakeholders to align digital solutions with business goals.",
-      "Implemented SEO and performance enhancements, improving online visibility and speed."
+      "Designed and deployed the company website.",
+      "Implemented mobile-friendly, responsive layouts.",
+      "Aligned web solutions with business needs.",
+      "Optimized SEO and site performance."
     ],
   },
   {
@@ -30,14 +30,13 @@ const experiences = [
     company: "Freelance Projects",
     date: "2023 - 2024",
     responsibilities: [
-      "Created interactive web experiences for client projects with React and JavaScript.",
-      "Collaborated with back-end developers to integrate APIs and ensure smooth data flow.",
-      "Introduced new development workflows that improved efficiency and code quality.",
-      "Explored innovative front-end techniques, keeping projects aligned with industry trends."
+      "Built interactive client websites with React.",
+      "Integrated APIs with front-end applications.",
+      "Improved workflow and code quality.",
+      "Adopted modern front-end practices."
     ],
   }
-  
-];
+]
 const AllExperience = () => {
   return (
     <div className="flex flex-col md:flex-row sm:flex-col items-center justify-between gap-8 flex-wrap mt-12">
