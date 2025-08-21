@@ -8,10 +8,10 @@ const experiences = [
     company: "Phillip Apps",
     date: "2024 - Present",
     responsibilities: [
-      "Implementing Reusable Component",
-      "Participating in scale application",
-      "Working on performance of web application",
-      "Generating new ideas for web design and Development",
+      "Developing and maintaining highly responsive user interfaces using React and Tailwind CSS.",
+      "Building reusable and scalable front-end components to speed up project delivery.",
+      "Optimizing web applications for better performance, accessibility, and mobile responsiveness.",
+      "Collaborating on UI/UX improvements to enhance customer engagement and satisfaction."
     ],
   },
   {
@@ -19,23 +19,24 @@ const experiences = [
     company: "Phipest-Bens Intl Ltd",
     date: "2024 - Present",
     responsibilities: [
-      "Implementing Reusable Component",
-      "Participating in scale application",
-      "Working on performance of web application",
-      "Generating new ideas for web design and Development",
+      "Designed and launched the company’s official website with a modern, user-friendly layout.",
+      "Integrated responsive design practices to ensure seamless viewing across devices.",
+      "Worked closely with stakeholders to align digital solutions with business goals.",
+      "Implemented SEO and performance enhancements, improving online visibility and speed."
     ],
   },
   {
-    job: "Front-End Developr",
-    company: "Phillip Apps",
-    date: "2024 - Present",
+    job: "Front-End Developer",
+    company: "Freelance Projects",
+    date: "2023 - 2024",
     responsibilities: [
-      "Implementing Reusable Component",
-      "Participating in scale application",
-      "Working on performance of web application",
-      "Generating new ideas for web design and Development",
+      "Created interactive web experiences for client projects with React and JavaScript.",
+      "Collaborated with back-end developers to integrate APIs and ensure smooth data flow.",
+      "Introduced new development workflows that improved efficiency and code quality.",
+      "Explored innovative front-end techniques, keeping projects aligned with industry trends."
     ],
-  },
+  }
+  
 ];
 const AllExperience = () => {
   return (

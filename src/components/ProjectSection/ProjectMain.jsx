@@ -13,19 +13,19 @@ const projects=[
         name: 'Movie App',
         year: 'Dec2024',
         align: 'right',
-        image: img1,
-        link: '#'
+        image: img3,
+        link: 'https://movie-app-delta-sand.vercel.app/'
     }, {
         name: 'Phipest Construction',
         year: 'Mar2025',
         align: 'left',
         image: img2,
-        link: '#'
+        link: 'https://construction-website-gilt-ten.vercel.app/'
     }, {
         name: 'Debate_X',
         year: 'Jan2025',
         align: 'right',
-        image: img3,
+        image: img1,
         link: '#'
     }, {
         name: 'Model Fashion',
